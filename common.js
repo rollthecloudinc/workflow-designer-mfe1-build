@@ -32,7 +32,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "mfe1DownloadContentPluginFactory": () => (/* binding */ mfe1DownloadContentPluginFactory)
 /* harmony export */ });
-/* harmony import */ var _rollthecloudinc_content__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @rollthecloudinc/content */ 4739);
+/* harmony import */ var _rollthecloudinc_content__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @rollthecloudinc/content */ 644);
 /* harmony import */ var _rollthecloudinc_content__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_rollthecloudinc_content__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _download_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./download.component */ 2836);
 
@@ -63,7 +63,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 2207);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_angular_core__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _rollthecloudinc_content__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @rollthecloudinc/content */ 4739);
+/* harmony import */ var _rollthecloudinc_content__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @rollthecloudinc/content */ 644);
 /* harmony import */ var _rollthecloudinc_content__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_rollthecloudinc_content__WEBPACK_IMPORTED_MODULE_1__);
 
 
@@ -104,7 +104,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_angular_common__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/core */ 2207);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_angular_core__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _rollthecloudinc_content__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @rollthecloudinc/content */ 4739);
+/* harmony import */ var _rollthecloudinc_content__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @rollthecloudinc/content */ 644);
 /* harmony import */ var _rollthecloudinc_content__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_rollthecloudinc_content__WEBPACK_IMPORTED_MODULE_5__);
 
 
@@ -142,7 +142,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "DownloadContentHandler": () => (/* binding */ DownloadContentHandler)
 /* harmony export */ });
-/* harmony import */ var _rollthecloudinc_content__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @rollthecloudinc/content */ 4739);
+/* harmony import */ var _rollthecloudinc_content__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @rollthecloudinc/content */ 644);
 /* harmony import */ var _rollthecloudinc_content__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_rollthecloudinc_content__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs */ 5249);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ 2207);
@@ -240,10 +240,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 2207);
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common */ 702);
-/* harmony import */ var _rollthecloudinc_attributes__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @rollthecloudinc/attributes */ 5758);
-/* harmony import */ var _rollthecloudinc_plugin__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @rollthecloudinc/plugin */ 5731);
+/* harmony import */ var _rollthecloudinc_attributes__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @rollthecloudinc/attributes */ 9545);
+/* harmony import */ var _rollthecloudinc_plugin__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @rollthecloudinc/plugin */ 965);
 /* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! rxjs */ 5249);
-/* harmony import */ var _rollthecloudinc_utils__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @rollthecloudinc/utils */ 4625);
+/* harmony import */ var _rollthecloudinc_utils__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @rollthecloudinc/utils */ 9367);
 
 
 
@@ -415,7 +415,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "PluginModule": () => (/* binding */ PluginModule)
 /* harmony export */ });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 2207);
-/* harmony import */ var _rollthecloudinc_utils__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @rollthecloudinc/utils */ 4625);
+/* harmony import */ var _rollthecloudinc_utils__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @rollthecloudinc/utils */ 9367);
 /* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs */ 5249);
 /* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! rxjs */ 4122);
 /* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! rxjs/operators */ 3399);
