@@ -1,1 +1,590 @@
-var z={3539:(l,f,i)=>{var d={"./DownloadModule":()=>Promise.all([i.e(718),i.e(945),i.e(55),i.e(212),i.e(592),i.e(401)]).then(()=>()=>i(6401)),"./Download":()=>Promise.all([i.e(718),i.e(212),i.e(592)]).then(()=>()=>i(2836)),"./Upload":()=>Promise.all([i.e(718),i.e(379)]).then(()=>()=>i(379))},g=(s,S)=>(i.R=S,S=i.o(d,s)?d[s]():Promise.resolve().then(()=>{throw new Error('Module "'+s+'" does not exist in container.')}),i.R=void 0,S),c=(s,S)=>{if(i.S){var v="default",b=i.S[v];if(b&&b!==s)throw new Error("Container initialization failed as it has already been initialized with a different share scope");return i.S[v]=s,i.I(v,S)}};i.d(f,{get:()=>g,init:()=>c})}},L={};function r(l){var f=L[l];if(void 0!==f)return f.exports;var i=L[l]={exports:{}};return z[l](i,i.exports,r),i.exports}r.m=z,r.c=L,r.n=l=>{var f=l&&l.__esModule?()=>l.default:()=>l;return r.d(f,{a:f}),f},r.d=(l,f)=>{for(var i in f)r.o(f,i)&&!r.o(l,i)&&Object.defineProperty(l,i,{enumerable:!0,get:f[i]})},r.f={},r.e=l=>Promise.all(Object.keys(r.f).reduce((f,i)=>(r.f[i](l,f),f),[])),r.u=l=>(592===l?"common":l)+".js",r.miniCssF=l=>{},r.o=(l,f)=>Object.prototype.hasOwnProperty.call(l,f),(()=>{var l={},f="mfe1:";r.l=(i,d,g,c)=>{if(l[i])l[i].push(d);else{var s,S;if(void 0!==g)for(var v=document.getElementsByTagName("script"),b=0;b<v.length;b++){var p=v[b];if(p.getAttribute("src")==i||p.getAttribute("data-webpack")==f+g){s=p;break}}s||(S=!0,(s=document.createElement("script")).type="module",s.charset="utf-8",s.timeout=120,r.nc&&s.setAttribute("nonce",r.nc),s.setAttribute("data-webpack",f+g),s.src=r.tu(i)),l[i]=[d];var P=(x,y)=>{s.onerror=s.onload=null,clearTimeout(w);var C=l[i];if(delete l[i],s.parentNode&&s.parentNode.removeChild(s),C&&C.forEach(m=>m(y)),x)return x(y)},w=setTimeout(P.bind(null,void 0,{type:"timeout",target:s}),12e4);s.onerror=P.bind(null,s.onerror),s.onload=P.bind(null,s.onload),S&&document.head.appendChild(s)}}})(),r.r=l=>{typeof Symbol<"u"&&Symbol.toStringTag&&Object.defineProperty(l,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(l,"__esModule",{value:!0})},r.j=291,(()=>{r.S={};var l={},f={};r.I=(i,d)=>{d||(d=[]);var g=f[i];if(g||(g=f[i]={}),!(d.indexOf(g)>=0)){if(d.push(g),l[i])return l[i];r.o(r.S,i)||(r.S[i]={});var c=r.S[i],S="mfe1",v=(P,w,x,y)=>{var C=c[P]=c[P]||{},m=C[w];(!m||!m.loaded&&(!y!=!m.eager?y:S>m.from))&&(C[w]={get:x,from:S,eager:!!y})},p=[];return"default"===i&&(v("@angular/common/http","16.0.1",()=>Promise.all([r.e(718),r.e(945),r.e(55),r.e(862)]).then(()=>()=>r(4862))),v("@angular/common","16.0.1",()=>Promise.all([r.e(718),r.e(89)]).then(()=>()=>r(89))),v("@angular/core","16.0.1",()=>Promise.all([r.e(945),r.e(107)]).then(()=>()=>r(4355))),v("@rollthecloudinc/attributes","16.0.0-alpha.2",()=>Promise.all([r.e(718),r.e(945),r.e(55),r.e(270),r.e(267),r.e(280),r.e(8),r.e(257)]).then(()=>()=>r(9257))),v("@rollthecloudinc/content","16.0.0-alpha.2",()=>Promise.all([r.e(718),r.e(945),r.e(55),r.e(270),r.e(8),r.e(278),r.e(592)]).then(()=>()=>r(3272))),v("@rollthecloudinc/material","16.0.0-alpha.2",()=>Promise.all([r.e(718),r.e(945),r.e(55),r.e(267),r.e(280),r.e(623),r.e(995)]).then(()=>()=>r(3995))),v("@rollthecloudinc/plugin","16.0.0-alpha.2",()=>Promise.all([r.e(718),r.e(945),r.e(270),r.e(592),r.e(28)]).then(()=>()=>r(5645))),v("@rollthecloudinc/utils","16.0.0-alpha.2",()=>Promise.all([r.e(718),r.e(945),r.e(55),r.e(285)]).then(()=>()=>r(3285)))),l[i]=p.length?Promise.all(p).then(()=>l[i]=1):1}}})(),(()=>{var l;r.tt=()=>(void 0===l&&(l={createScriptURL:f=>f},typeof trustedTypes<"u"&&trustedTypes.createPolicy&&(l=trustedTypes.createPolicy("angular#bundler",l))),l)})(),r.tu=l=>r.tt().createScriptURL(l),(()=>{var l;if("string"==typeof import.meta.url&&(l=import.meta.url),!l)throw new Error("Automatic publicPath is not supported in this browser");l=l.replace(/#.*$/,"").replace(/\?.*$/,"").replace(/\/[^\/]+$/,"/"),r.p=l})(),(()=>{var l=t=>{var n=o=>o.split(".").map(u=>+u==u?+u:u),e=/^([^-+]+)?(?:-([^+]+))?(?:\+(.+))?$/.exec(t),a=e[1]?n(e[1]):[];return e[2]&&(a.length++,a.push.apply(a,n(e[2]))),e[3]&&(a.push([]),a.push.apply(a,n(e[3]))),a},i=t=>{var n=t[0],e="";if(1===t.length)return"*";if(n+.5){e+=0==n?">=":-1==n?"<":1==n?"^":2==n?"~":n>0?"=":"!=";for(var a=1,o=1;o<t.length;o++)a--,e+="u"==(typeof(h=t[o]))[0]?"-":(a>0?".":"")+(a=2,h);return e}var u=[];for(o=1;o<t.length;o++){var h=t[o];u.push(0===h?"not("+V()+")":1===h?"("+V()+" || "+V()+")":2===h?u.pop()+" "+u.pop():i(h))}return V();function V(){return u.pop().replace(/^\((.+)\)$/,"$1")}},d=(t,n)=>{if(0 in t){n=l(n);var e=t[0],a=e<0;a&&(e=-e-1);for(var o=0,u=1,h=!0;;u++,o++){var V,A,j=u<t.length?(typeof t[u])[0]:"";if(o>=n.length||"o"==(A=(typeof(V=n[o]))[0]))return!h||("u"==j?u>e&&!a:""==j!=a);if("u"==A){if(!h||"u"!=j)return!1}else if(h)if(j==A)if(u<=e){if(V!=t[u])return!1}else{if(a?V>t[u]:V<t[u])return!1;V!=t[u]&&(h=!1)}else if("s"!=j&&"n"!=j){if(a||u<=e)return!1;h=!1,u--}else{if(u<=e||A<j!=a)return!1;h=!1}else"s"!=j&&"n"!=j&&(h=!1,u--)}}var $=[],O=$.pop.bind($);for(o=1;o<t.length;o++){var F=t[o];$.push(1==F?O()|O():2==F?O()&O():F?d(F,n):!O())}return!!O()},s=(t,n)=>{var e=t[n];return Object.keys(e).reduce((a,o)=>!a||!e[a].loaded&&((t,n)=>{t=l(t),n=l(n);for(var e=0;;){if(e>=t.length)return e<n.length&&"u"!=(typeof n[e])[0];var a=t[e],o=(typeof a)[0];if(e>=n.length)return"u"==o;var u=n[e],h=(typeof u)[0];if(o!=h)return"o"==o&&"n"==h||"s"==h||"u"==o;if("o"!=o&&"u"!=o&&a!=u)return a<u;e++}})(a,o)?o:a,0)},p=(t,n,e,a)=>{var o=s(t,e);if(!d(a,o))throw new Error(((t,n,e,a)=>"Unsatisfied version "+e+" from "+(e&&t[n][e].from)+" of shared singleton module "+n+" (required "+i(a)+")")(t,e,o,a));return m(t[e][o])},m=t=>(t.loaded=1,t.get()),M=(t=>function(n,e,a,o){var u=r.I(n);return u&&u.then?u.then(t.bind(t,n,r.S[n],e,a,o)):t(n,r.S[n],e,a,o)})((t,n,e,a,o)=>n&&r.o(n,e)?p(n,0,e,a):o()),T={},R={6718:()=>M("default","@angular/core",[1,16,0,1],()=>Promise.all([r.e(945),r.e(107)]).then(()=>()=>r(4355))),4055:()=>M("default","@angular/common",[1,16,0,1],()=>r.e(89).then(()=>()=>r(89))),1212:()=>M("default","@rollthecloudinc/content",[7,16,0,0,,"alpha",2],()=>Promise.all([r.e(945),r.e(55),r.e(270),r.e(8),r.e(278),r.e(592)]).then(()=>()=>r(3272))),8270:()=>M("default","@rollthecloudinc/utils",[7,16,0,0,,"alpha",2],()=>Promise.all([r.e(55),r.e(285)]).then(()=>()=>r(3285))),3267:()=>M("default","@angular/common/http",[1,16,0,1],()=>r.e(862).then(()=>()=>r(4862))),2008:()=>M("default","@rollthecloudinc/plugin",[7,16,0,0,,"alpha",2],()=>Promise.all([r.e(592),r.e(355)]).then(()=>()=>r(5645))),2474:()=>M("default","@rollthecloudinc/material",[7,16,0,0,,"alpha",2],()=>Promise.all([r.e(623),r.e(995)]).then(()=>()=>r(3995))),4278:()=>M("default","@rollthecloudinc/attributes",[7,16,0,0,,"alpha",2],()=>Promise.all([r.e(267),r.e(280),r.e(257)]).then(()=>()=>r(9257)))},U={8:[2008],55:[4055],212:[1212],257:[2474],267:[3267],270:[8270],278:[4278],718:[6718]};r.f.consumes=(t,n)=>{r.o(U,t)&&U[t].forEach(e=>{if(r.o(T,e))return n.push(T[e]);var a=h=>{T[e]=0,r.m[e]=V=>{delete r.c[e],V.exports=h()}},o=h=>{delete T[e],r.m[e]=V=>{throw delete r.c[e],h}};try{var u=R[e]();u.then?n.push(T[e]=u.then(a).catch(o)):a(u)}catch(h){o(h)}})}})(),(()=>{var l={291:0};r.f.j=(d,g)=>{var c=r.o(l,d)?l[d]:void 0;if(0!==c)if(c)g.push(c[2]);else if(/^(2(12|67|70|78)|55|718|8)$/.test(d))l[d]=0;else{var s=new Promise((p,P)=>c=l[d]=[p,P]);g.push(c[2]=s);var S=r.p+r.u(d),v=new Error;r.l(S,p=>{if(r.o(l,d)&&(0!==(c=l[d])&&(l[d]=void 0),c)){var P=p&&("load"===p.type?"missing":p.type),w=p&&p.target&&p.target.src;v.message="Loading chunk "+d+" failed.\n("+P+": "+w+")",v.name="ChunkLoadError",v.type=P,v.request=w,c[1](v)}},"chunk-"+d,d)}};var f=(d,g)=>{var v,b,[c,s,S]=g,p=0;if(c.some(w=>0!==l[w])){for(v in s)r.o(s,v)&&(r.m[v]=s[v]);S&&S(r)}for(d&&d(g);p<c.length;p++)r.o(l,b=c[p])&&l[b]&&l[b][0](),l[b]=0},i=self.webpackChunkmfe1=self.webpackChunkmfe1||[];i.forEach(f.bind(null,0)),i.push=f.bind(null,i.push.bind(i))})();var D=r(3539),B=D.get,G=D.init;export{B as get,G as init};
+/******/ var __webpack_modules__ = ({
+
+/***/ 3539:
+/*!***********************!*\
+  !*** container entry ***!
+  \***********************/
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+var moduleMap = {
+	"./DownloadModule": () => {
+		return Promise.all([__webpack_require__.e(718), __webpack_require__.e(249), __webpack_require__.e(55), __webpack_require__.e(212), __webpack_require__.e(592)]).then(() => (() => ((__webpack_require__(/*! ./projects/mfe1/src/app/download.module.ts */ 6401)))));
+	},
+	"./Download": () => {
+		return Promise.all([__webpack_require__.e(718), __webpack_require__.e(212), __webpack_require__.e(592)]).then(() => (() => ((__webpack_require__(/*! ./projects/mfe1/src/app/download.component.ts */ 2836)))));
+	},
+	"./Upload": () => {
+		return Promise.all([__webpack_require__.e(718), __webpack_require__.e(592)]).then(() => (() => ((__webpack_require__(/*! ./projects/mfe1/src/app/upload.component.ts */ 379)))));
+	}
+};
+var get = (module, getScope) => {
+	__webpack_require__.R = getScope;
+	getScope = (
+		__webpack_require__.o(moduleMap, module)
+			? moduleMap[module]()
+			: Promise.resolve().then(() => {
+				throw new Error('Module "' + module + '" does not exist in container.');
+			})
+	);
+	__webpack_require__.R = undefined;
+	return getScope;
+};
+var init = (shareScope, initScope) => {
+	if (!__webpack_require__.S) return;
+	var name = "default"
+	var oldScope = __webpack_require__.S[name];
+	if(oldScope && oldScope !== shareScope) throw new Error("Container initialization failed as it has already been initialized with a different share scope");
+	__webpack_require__.S[name] = shareScope;
+	return __webpack_require__.I(name, initScope);
+};
+
+// This exports getters to disallow modifications
+__webpack_require__.d(exports, {
+	get: () => (get),
+	init: () => (init)
+});
+
+/***/ })
+
+/******/ });
+/************************************************************************/
+/******/ // The module cache
+/******/ var __webpack_module_cache__ = {};
+/******/ 
+/******/ // The require function
+/******/ function __webpack_require__(moduleId) {
+/******/ 	// Check if module is in cache
+/******/ 	var cachedModule = __webpack_module_cache__[moduleId];
+/******/ 	if (cachedModule !== undefined) {
+/******/ 		return cachedModule.exports;
+/******/ 	}
+/******/ 	// Create a new module (and put it into the cache)
+/******/ 	var module = __webpack_module_cache__[moduleId] = {
+/******/ 		// no module.id needed
+/******/ 		// no module.loaded needed
+/******/ 		exports: {}
+/******/ 	};
+/******/ 
+/******/ 	// Execute the module function
+/******/ 	__webpack_modules__[moduleId](module, module.exports, __webpack_require__);
+/******/ 
+/******/ 	// Return the exports of the module
+/******/ 	return module.exports;
+/******/ }
+/******/ 
+/******/ // expose the modules object (__webpack_modules__)
+/******/ __webpack_require__.m = __webpack_modules__;
+/******/ 
+/******/ // expose the module cache
+/******/ __webpack_require__.c = __webpack_module_cache__;
+/******/ 
+/************************************************************************/
+/******/ /* webpack/runtime/compat get default export */
+/******/ (() => {
+/******/ 	// getDefaultExport function for compatibility with non-harmony modules
+/******/ 	__webpack_require__.n = (module) => {
+/******/ 		var getter = module && module.__esModule ?
+/******/ 			() => (module['default']) :
+/******/ 			() => (module);
+/******/ 		__webpack_require__.d(getter, { a: getter });
+/******/ 		return getter;
+/******/ 	};
+/******/ })();
+/******/ 
+/******/ /* webpack/runtime/define property getters */
+/******/ (() => {
+/******/ 	// define getter functions for harmony exports
+/******/ 	__webpack_require__.d = (exports, definition) => {
+/******/ 		for(var key in definition) {
+/******/ 			if(__webpack_require__.o(definition, key) && !__webpack_require__.o(exports, key)) {
+/******/ 				Object.defineProperty(exports, key, { enumerable: true, get: definition[key] });
+/******/ 			}
+/******/ 		}
+/******/ 	};
+/******/ })();
+/******/ 
+/******/ /* webpack/runtime/ensure chunk */
+/******/ (() => {
+/******/ 	__webpack_require__.f = {};
+/******/ 	// This file contains only the entry chunk.
+/******/ 	// The chunk loading function for additional chunks
+/******/ 	__webpack_require__.e = (chunkId) => {
+/******/ 		return Promise.all(Object.keys(__webpack_require__.f).reduce((promises, key) => {
+/******/ 			__webpack_require__.f[key](chunkId, promises);
+/******/ 			return promises;
+/******/ 		}, []));
+/******/ 	};
+/******/ })();
+/******/ 
+/******/ /* webpack/runtime/get javascript chunk filename */
+/******/ (() => {
+/******/ 	// This function allow to reference async chunks
+/******/ 	__webpack_require__.u = (chunkId) => {
+/******/ 		// return url for filenames based on template
+/******/ 		return "" + (chunkId === 592 ? "common" : chunkId) + ".js";
+/******/ 	};
+/******/ })();
+/******/ 
+/******/ /* webpack/runtime/get mini-css chunk filename */
+/******/ (() => {
+/******/ 	// This function allow to reference async chunks
+/******/ 	__webpack_require__.miniCssF = (chunkId) => {
+/******/ 		// return url for filenames based on template
+/******/ 		return undefined;
+/******/ 	};
+/******/ })();
+/******/ 
+/******/ /* webpack/runtime/hasOwnProperty shorthand */
+/******/ (() => {
+/******/ 	__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
+/******/ })();
+/******/ 
+/******/ /* webpack/runtime/load script */
+/******/ (() => {
+/******/ 	var inProgress = {};
+/******/ 	var dataWebpackPrefix = "mfe1:";
+/******/ 	// loadScript function to load a script via script tag
+/******/ 	__webpack_require__.l = (url, done, key, chunkId) => {
+/******/ 		if(inProgress[url]) { inProgress[url].push(done); return; }
+/******/ 		var script, needAttach;
+/******/ 		if(key !== undefined) {
+/******/ 			var scripts = document.getElementsByTagName("script");
+/******/ 			for(var i = 0; i < scripts.length; i++) {
+/******/ 				var s = scripts[i];
+/******/ 				if(s.getAttribute("src") == url || s.getAttribute("data-webpack") == dataWebpackPrefix + key) { script = s; break; }
+/******/ 			}
+/******/ 		}
+/******/ 		if(!script) {
+/******/ 			needAttach = true;
+/******/ 			script = document.createElement('script');
+/******/ 			script.type = "module";
+/******/ 			script.charset = 'utf-8';
+/******/ 			script.timeout = 120;
+/******/ 			if (__webpack_require__.nc) {
+/******/ 				script.setAttribute("nonce", __webpack_require__.nc);
+/******/ 			}
+/******/ 			script.setAttribute("data-webpack", dataWebpackPrefix + key);
+/******/ 			script.src = __webpack_require__.tu(url);
+/******/ 		}
+/******/ 		inProgress[url] = [done];
+/******/ 		var onScriptComplete = (prev, event) => {
+/******/ 			// avoid mem leaks in IE.
+/******/ 			script.onerror = script.onload = null;
+/******/ 			clearTimeout(timeout);
+/******/ 			var doneFns = inProgress[url];
+/******/ 			delete inProgress[url];
+/******/ 			script.parentNode && script.parentNode.removeChild(script);
+/******/ 			doneFns && doneFns.forEach((fn) => (fn(event)));
+/******/ 			if(prev) return prev(event);
+/******/ 		}
+/******/ 		var timeout = setTimeout(onScriptComplete.bind(null, undefined, { type: 'timeout', target: script }), 120000);
+/******/ 		script.onerror = onScriptComplete.bind(null, script.onerror);
+/******/ 		script.onload = onScriptComplete.bind(null, script.onload);
+/******/ 		needAttach && document.head.appendChild(script);
+/******/ 	};
+/******/ })();
+/******/ 
+/******/ /* webpack/runtime/make namespace object */
+/******/ (() => {
+/******/ 	// define __esModule on exports
+/******/ 	__webpack_require__.r = (exports) => {
+/******/ 		if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
+/******/ 			Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
+/******/ 		}
+/******/ 		Object.defineProperty(exports, '__esModule', { value: true });
+/******/ 	};
+/******/ })();
+/******/ 
+/******/ /* webpack/runtime/sharing */
+/******/ (() => {
+/******/ 	__webpack_require__.S = {};
+/******/ 	var initPromises = {};
+/******/ 	var initTokens = {};
+/******/ 	__webpack_require__.I = (name, initScope) => {
+/******/ 		if(!initScope) initScope = [];
+/******/ 		// handling circular init calls
+/******/ 		var initToken = initTokens[name];
+/******/ 		if(!initToken) initToken = initTokens[name] = {};
+/******/ 		if(initScope.indexOf(initToken) >= 0) return;
+/******/ 		initScope.push(initToken);
+/******/ 		// only runs once
+/******/ 		if(initPromises[name]) return initPromises[name];
+/******/ 		// creates a new share scope if needed
+/******/ 		if(!__webpack_require__.o(__webpack_require__.S, name)) __webpack_require__.S[name] = {};
+/******/ 		// runs all init snippets from all modules reachable
+/******/ 		var scope = __webpack_require__.S[name];
+/******/ 		var warn = (msg) => (typeof console !== "undefined" && console.warn && console.warn(msg));
+/******/ 		var uniqueName = "mfe1";
+/******/ 		var register = (name, version, factory, eager) => {
+/******/ 			var versions = scope[name] = scope[name] || {};
+/******/ 			var activeVersion = versions[version];
+/******/ 			if(!activeVersion || (!activeVersion.loaded && (!eager != !activeVersion.eager ? eager : uniqueName > activeVersion.from))) versions[version] = { get: factory, from: uniqueName, eager: !!eager };
+/******/ 		};
+/******/ 		var initExternal = (id) => {
+/******/ 			var handleError = (err) => (warn("Initialization of sharing external failed: " + err));
+/******/ 			try {
+/******/ 				var module = __webpack_require__(id);
+/******/ 				if(!module) return;
+/******/ 				var initFn = (module) => (module && module.init && module.init(__webpack_require__.S[name], initScope))
+/******/ 				if(module.then) return promises.push(module.then(initFn, handleError));
+/******/ 				var initResult = initFn(module);
+/******/ 				if(initResult && initResult.then) return promises.push(initResult['catch'](handleError));
+/******/ 			} catch(err) { handleError(err); }
+/******/ 		}
+/******/ 		var promises = [];
+/******/ 		switch(name) {
+/******/ 			case "default": {
+/******/ 				register("@angular/common/http", "16.0.1", () => (Promise.all([__webpack_require__.e(718), __webpack_require__.e(249), __webpack_require__.e(55), __webpack_require__.e(653)]).then(() => (() => (__webpack_require__(/*! ./node_modules/@angular/common/fesm2022/http.mjs */ 6653))))));
+/******/ 				register("@angular/common", "16.0.1", () => (Promise.all([__webpack_require__.e(718), __webpack_require__.e(545)]).then(() => (() => (__webpack_require__(/*! ./node_modules/@angular/common/fesm2022/common.mjs */ 2545))))));
+/******/ 				register("@angular/core", "16.0.1", () => (Promise.all([__webpack_require__.e(249), __webpack_require__.e(861), __webpack_require__.e(390)]).then(() => (() => (__webpack_require__(/*! ./node_modules/@angular/core/fesm2022/core.mjs */ 390))))));
+/******/ 				register("@rollthecloudinc/attributes", "16.0.0-alpha.2", () => (Promise.all([__webpack_require__.e(718), __webpack_require__.e(249), __webpack_require__.e(55), __webpack_require__.e(861), __webpack_require__.e(270), __webpack_require__.e(267), __webpack_require__.e(510), __webpack_require__.e(8), __webpack_require__.e(1)]).then(() => (() => (__webpack_require__(/*! ./node_modules/@rollthecloudinc/attributes/fesm2022/rollthecloudinc-attributes.mjs */ 8001))))));
+/******/ 				register("@rollthecloudinc/content", "16.0.0-alpha.2", () => (Promise.all([__webpack_require__.e(718), __webpack_require__.e(249), __webpack_require__.e(55), __webpack_require__.e(270), __webpack_require__.e(8), __webpack_require__.e(278), __webpack_require__.e(592)]).then(() => (() => (__webpack_require__(/*! ./node_modules/@rollthecloudinc/content/fesm2022/rollthecloudinc-content.mjs */ 8197))))));
+/******/ 				register("@rollthecloudinc/material", "16.0.0-alpha.2", () => (Promise.all([__webpack_require__.e(718), __webpack_require__.e(249), __webpack_require__.e(55), __webpack_require__.e(861), __webpack_require__.e(267), __webpack_require__.e(510), __webpack_require__.e(136), __webpack_require__.e(79)]).then(() => (() => (__webpack_require__(/*! ./node_modules/@rollthecloudinc/material/fesm2022/rollthecloudinc-material.mjs */ 2079))))));
+/******/ 				register("@rollthecloudinc/plugin", "16.0.0-alpha.2", () => (Promise.all([__webpack_require__.e(718), __webpack_require__.e(249), __webpack_require__.e(270), __webpack_require__.e(592), __webpack_require__.e(281)]).then(() => (() => (__webpack_require__(/*! ./node_modules/@rollthecloudinc/plugin/fesm2022/rollthecloudinc-plugin.mjs */ 2752))))));
+/******/ 				register("@rollthecloudinc/utils", "16.0.0-alpha.2", () => (Promise.all([__webpack_require__.e(718), __webpack_require__.e(249), __webpack_require__.e(55), __webpack_require__.e(871)]).then(() => (() => (__webpack_require__(/*! ./node_modules/@rollthecloudinc/utils/fesm2022/rollthecloudinc-utils.mjs */ 7871))))));
+/******/ 			}
+/******/ 			break;
+/******/ 		}
+/******/ 		if(!promises.length) return initPromises[name] = 1;
+/******/ 		return initPromises[name] = Promise.all(promises).then(() => (initPromises[name] = 1));
+/******/ 	};
+/******/ })();
+/******/ 
+/******/ /* webpack/runtime/trusted types policy */
+/******/ (() => {
+/******/ 	var policy;
+/******/ 	__webpack_require__.tt = () => {
+/******/ 		// Create Trusted Type policy if Trusted Types are available and the policy doesn't exist yet.
+/******/ 		if (policy === undefined) {
+/******/ 			policy = {
+/******/ 				createScriptURL: (url) => (url)
+/******/ 			};
+/******/ 			if (typeof trustedTypes !== "undefined" && trustedTypes.createPolicy) {
+/******/ 				policy = trustedTypes.createPolicy("angular#bundler", policy);
+/******/ 			}
+/******/ 		}
+/******/ 		return policy;
+/******/ 	};
+/******/ })();
+/******/ 
+/******/ /* webpack/runtime/trusted types script url */
+/******/ (() => {
+/******/ 	__webpack_require__.tu = (url) => (__webpack_require__.tt().createScriptURL(url));
+/******/ })();
+/******/ 
+/******/ /* webpack/runtime/publicPath */
+/******/ (() => {
+/******/ 	var scriptUrl;
+/******/ 	if (typeof import.meta.url === "string") scriptUrl = import.meta.url
+/******/ 	// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 	// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 	if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 	scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 	__webpack_require__.p = scriptUrl;
+/******/ })();
+/******/ 
+/******/ /* webpack/runtime/consumes */
+/******/ (() => {
+/******/ 	var parseVersion = (str) => {
+/******/ 		// see webpack/lib/util/semver.js for original code
+/******/ 		var p=p=>{return p.split(".").map((p=>{return+p==p?+p:p}))},n=/^([^-+]+)?(?:-([^+]+))?(?:\+(.+))?$/.exec(str),r=n[1]?p(n[1]):[];return n[2]&&(r.length++,r.push.apply(r,p(n[2]))),n[3]&&(r.push([]),r.push.apply(r,p(n[3]))),r;
+/******/ 	}
+/******/ 	var versionLt = (a, b) => {
+/******/ 		// see webpack/lib/util/semver.js for original code
+/******/ 		a=parseVersion(a),b=parseVersion(b);for(var r=0;;){if(r>=a.length)return r<b.length&&"u"!=(typeof b[r])[0];var e=a[r],n=(typeof e)[0];if(r>=b.length)return"u"==n;var t=b[r],f=(typeof t)[0];if(n!=f)return"o"==n&&"n"==f||("s"==f||"u"==n);if("o"!=n&&"u"!=n&&e!=t)return e<t;r++}
+/******/ 	}
+/******/ 	var rangeToString = (range) => {
+/******/ 		// see webpack/lib/util/semver.js for original code
+/******/ 		var r=range[0],n="";if(1===range.length)return"*";if(r+.5){n+=0==r?">=":-1==r?"<":1==r?"^":2==r?"~":r>0?"=":"!=";for(var e=1,a=1;a<range.length;a++){e--,n+="u"==(typeof(t=range[a]))[0]?"-":(e>0?".":"")+(e=2,t)}return n}var g=[];for(a=1;a<range.length;a++){var t=range[a];g.push(0===t?"not("+o()+")":1===t?"("+o()+" || "+o()+")":2===t?g.pop()+" "+g.pop():rangeToString(t))}return o();function o(){return g.pop().replace(/^\((.+)\)$/,"$1")}
+/******/ 	}
+/******/ 	var satisfy = (range, version) => {
+/******/ 		// see webpack/lib/util/semver.js for original code
+/******/ 		if(0 in range){version=parseVersion(version);var e=range[0],r=e<0;r&&(e=-e-1);for(var n=0,i=1,a=!0;;i++,n++){var f,s,g=i<range.length?(typeof range[i])[0]:"";if(n>=version.length||"o"==(s=(typeof(f=version[n]))[0]))return!a||("u"==g?i>e&&!r:""==g!=r);if("u"==s){if(!a||"u"!=g)return!1}else if(a)if(g==s)if(i<=e){if(f!=range[i])return!1}else{if(r?f>range[i]:f<range[i])return!1;f!=range[i]&&(a=!1)}else if("s"!=g&&"n"!=g){if(r||i<=e)return!1;a=!1,i--}else{if(i<=e||s<g!=r)return!1;a=!1}else"s"!=g&&"n"!=g&&(a=!1,i--)}}var t=[],o=t.pop.bind(t);for(n=1;n<range.length;n++){var u=range[n];t.push(1==u?o()|o():2==u?o()&o():u?satisfy(u,version):!o())}return!!o();
+/******/ 	}
+/******/ 	var ensureExistence = (scopeName, key) => {
+/******/ 		var scope = __webpack_require__.S[scopeName];
+/******/ 		if(!scope || !__webpack_require__.o(scope, key)) throw new Error("Shared module " + key + " doesn't exist in shared scope " + scopeName);
+/******/ 		return scope;
+/******/ 	};
+/******/ 	var findVersion = (scope, key) => {
+/******/ 		var versions = scope[key];
+/******/ 		var key = Object.keys(versions).reduce((a, b) => {
+/******/ 			return !a || versionLt(a, b) ? b : a;
+/******/ 		}, 0);
+/******/ 		return key && versions[key]
+/******/ 	};
+/******/ 	var findSingletonVersionKey = (scope, key) => {
+/******/ 		var versions = scope[key];
+/******/ 		return Object.keys(versions).reduce((a, b) => {
+/******/ 			return !a || (!versions[a].loaded && versionLt(a, b)) ? b : a;
+/******/ 		}, 0);
+/******/ 	};
+/******/ 	var getInvalidSingletonVersionMessage = (scope, key, version, requiredVersion) => {
+/******/ 		return "Unsatisfied version " + version + " from " + (version && scope[key][version].from) + " of shared singleton module " + key + " (required " + rangeToString(requiredVersion) + ")"
+/******/ 	};
+/******/ 	var getSingleton = (scope, scopeName, key, requiredVersion) => {
+/******/ 		var version = findSingletonVersionKey(scope, key);
+/******/ 		return get(scope[key][version]);
+/******/ 	};
+/******/ 	var getSingletonVersion = (scope, scopeName, key, requiredVersion) => {
+/******/ 		var version = findSingletonVersionKey(scope, key);
+/******/ 		if (!satisfy(requiredVersion, version)) warn(getInvalidSingletonVersionMessage(scope, key, version, requiredVersion));
+/******/ 		return get(scope[key][version]);
+/******/ 	};
+/******/ 	var getStrictSingletonVersion = (scope, scopeName, key, requiredVersion) => {
+/******/ 		var version = findSingletonVersionKey(scope, key);
+/******/ 		if (!satisfy(requiredVersion, version)) throw new Error(getInvalidSingletonVersionMessage(scope, key, version, requiredVersion));
+/******/ 		return get(scope[key][version]);
+/******/ 	};
+/******/ 	var findValidVersion = (scope, key, requiredVersion) => {
+/******/ 		var versions = scope[key];
+/******/ 		var key = Object.keys(versions).reduce((a, b) => {
+/******/ 			if (!satisfy(requiredVersion, b)) return a;
+/******/ 			return !a || versionLt(a, b) ? b : a;
+/******/ 		}, 0);
+/******/ 		return key && versions[key]
+/******/ 	};
+/******/ 	var getInvalidVersionMessage = (scope, scopeName, key, requiredVersion) => {
+/******/ 		var versions = scope[key];
+/******/ 		return "No satisfying version (" + rangeToString(requiredVersion) + ") of shared module " + key + " found in shared scope " + scopeName + ".\n" +
+/******/ 			"Available versions: " + Object.keys(versions).map((key) => {
+/******/ 			return key + " from " + versions[key].from;
+/******/ 		}).join(", ");
+/******/ 	};
+/******/ 	var getValidVersion = (scope, scopeName, key, requiredVersion) => {
+/******/ 		var entry = findValidVersion(scope, key, requiredVersion);
+/******/ 		if(entry) return get(entry);
+/******/ 		throw new Error(getInvalidVersionMessage(scope, scopeName, key, requiredVersion));
+/******/ 	};
+/******/ 	var warn = (msg) => {
+/******/ 		if (typeof console !== "undefined" && console.warn) console.warn(msg);
+/******/ 	};
+/******/ 	var warnInvalidVersion = (scope, scopeName, key, requiredVersion) => {
+/******/ 		warn(getInvalidVersionMessage(scope, scopeName, key, requiredVersion));
+/******/ 	};
+/******/ 	var get = (entry) => {
+/******/ 		entry.loaded = 1;
+/******/ 		return entry.get()
+/******/ 	};
+/******/ 	var init = (fn) => (function(scopeName, a, b, c) {
+/******/ 		var promise = __webpack_require__.I(scopeName);
+/******/ 		if (promise && promise.then) return promise.then(fn.bind(fn, scopeName, __webpack_require__.S[scopeName], a, b, c));
+/******/ 		return fn(scopeName, __webpack_require__.S[scopeName], a, b, c);
+/******/ 	});
+/******/ 	
+/******/ 	var load = /*#__PURE__*/ init((scopeName, scope, key) => {
+/******/ 		ensureExistence(scopeName, key);
+/******/ 		return get(findVersion(scope, key));
+/******/ 	});
+/******/ 	var loadFallback = /*#__PURE__*/ init((scopeName, scope, key, fallback) => {
+/******/ 		return scope && __webpack_require__.o(scope, key) ? get(findVersion(scope, key)) : fallback();
+/******/ 	});
+/******/ 	var loadVersionCheck = /*#__PURE__*/ init((scopeName, scope, key, version) => {
+/******/ 		ensureExistence(scopeName, key);
+/******/ 		return get(findValidVersion(scope, key, version) || warnInvalidVersion(scope, scopeName, key, version) || findVersion(scope, key));
+/******/ 	});
+/******/ 	var loadSingleton = /*#__PURE__*/ init((scopeName, scope, key) => {
+/******/ 		ensureExistence(scopeName, key);
+/******/ 		return getSingleton(scope, scopeName, key);
+/******/ 	});
+/******/ 	var loadSingletonVersionCheck = /*#__PURE__*/ init((scopeName, scope, key, version) => {
+/******/ 		ensureExistence(scopeName, key);
+/******/ 		return getSingletonVersion(scope, scopeName, key, version);
+/******/ 	});
+/******/ 	var loadStrictVersionCheck = /*#__PURE__*/ init((scopeName, scope, key, version) => {
+/******/ 		ensureExistence(scopeName, key);
+/******/ 		return getValidVersion(scope, scopeName, key, version);
+/******/ 	});
+/******/ 	var loadStrictSingletonVersionCheck = /*#__PURE__*/ init((scopeName, scope, key, version) => {
+/******/ 		ensureExistence(scopeName, key);
+/******/ 		return getStrictSingletonVersion(scope, scopeName, key, version);
+/******/ 	});
+/******/ 	var loadVersionCheckFallback = /*#__PURE__*/ init((scopeName, scope, key, version, fallback) => {
+/******/ 		if(!scope || !__webpack_require__.o(scope, key)) return fallback();
+/******/ 		return get(findValidVersion(scope, key, version) || warnInvalidVersion(scope, scopeName, key, version) || findVersion(scope, key));
+/******/ 	});
+/******/ 	var loadSingletonFallback = /*#__PURE__*/ init((scopeName, scope, key, fallback) => {
+/******/ 		if(!scope || !__webpack_require__.o(scope, key)) return fallback();
+/******/ 		return getSingleton(scope, scopeName, key);
+/******/ 	});
+/******/ 	var loadSingletonVersionCheckFallback = /*#__PURE__*/ init((scopeName, scope, key, version, fallback) => {
+/******/ 		if(!scope || !__webpack_require__.o(scope, key)) return fallback();
+/******/ 		return getSingletonVersion(scope, scopeName, key, version);
+/******/ 	});
+/******/ 	var loadStrictVersionCheckFallback = /*#__PURE__*/ init((scopeName, scope, key, version, fallback) => {
+/******/ 		var entry = scope && __webpack_require__.o(scope, key) && findValidVersion(scope, key, version);
+/******/ 		return entry ? get(entry) : fallback();
+/******/ 	});
+/******/ 	var loadStrictSingletonVersionCheckFallback = /*#__PURE__*/ init((scopeName, scope, key, version, fallback) => {
+/******/ 		if(!scope || !__webpack_require__.o(scope, key)) return fallback();
+/******/ 		return getStrictSingletonVersion(scope, scopeName, key, version);
+/******/ 	});
+/******/ 	var installedModules = {};
+/******/ 	var moduleToHandlerMapping = {
+/******/ 		6718: () => (loadStrictSingletonVersionCheckFallback("default", "@angular/core", [1,16,0,1], () => (Promise.all([__webpack_require__.e(249), __webpack_require__.e(861), __webpack_require__.e(390)]).then(() => (() => (__webpack_require__(/*! @angular/core */ 390))))))),
+/******/ 		4055: () => (loadStrictSingletonVersionCheckFallback("default", "@angular/common", [1,16,0,1], () => (__webpack_require__.e(545).then(() => (() => (__webpack_require__(/*! @angular/common */ 2545))))))),
+/******/ 		1212: () => (loadStrictSingletonVersionCheckFallback("default", "@rollthecloudinc/content", [7,16,0,0,,"alpha",2], () => (Promise.all([__webpack_require__.e(249), __webpack_require__.e(55), __webpack_require__.e(270), __webpack_require__.e(8), __webpack_require__.e(278), __webpack_require__.e(592)]).then(() => (() => (__webpack_require__(/*! @rollthecloudinc/content */ 8197))))))),
+/******/ 		8270: () => (loadStrictSingletonVersionCheckFallback("default", "@rollthecloudinc/utils", [7,16,0,0,,"alpha",2], () => (Promise.all([__webpack_require__.e(55), __webpack_require__.e(871)]).then(() => (() => (__webpack_require__(/*! @rollthecloudinc/utils */ 7871))))))),
+/******/ 		3267: () => (loadStrictSingletonVersionCheckFallback("default", "@angular/common/http", [1,16,0,1], () => (__webpack_require__.e(653).then(() => (() => (__webpack_require__(/*! @angular/common/http */ 6653))))))),
+/******/ 		2008: () => (loadStrictSingletonVersionCheckFallback("default", "@rollthecloudinc/plugin", [7,16,0,0,,"alpha",2], () => (Promise.all([__webpack_require__.e(592), __webpack_require__.e(918)]).then(() => (() => (__webpack_require__(/*! @rollthecloudinc/plugin */ 2752))))))),
+/******/ 		2474: () => (loadStrictSingletonVersionCheckFallback("default", "@rollthecloudinc/material", [7,16,0,0,,"alpha",2], () => (Promise.all([__webpack_require__.e(136), __webpack_require__.e(79)]).then(() => (() => (__webpack_require__(/*! @rollthecloudinc/material */ 2079))))))),
+/******/ 		4278: () => (loadStrictSingletonVersionCheckFallback("default", "@rollthecloudinc/attributes", [7,16,0,0,,"alpha",2], () => (Promise.all([__webpack_require__.e(861), __webpack_require__.e(267), __webpack_require__.e(510), __webpack_require__.e(1)]).then(() => (() => (__webpack_require__(/*! @rollthecloudinc/attributes */ 8001)))))))
+/******/ 	};
+/******/ 	// no consumes in initial chunks
+/******/ 	var chunkMapping = {
+/******/ 		"1": [
+/******/ 			2474
+/******/ 		],
+/******/ 		"8": [
+/******/ 			2008
+/******/ 		],
+/******/ 		"55": [
+/******/ 			4055
+/******/ 		],
+/******/ 		"212": [
+/******/ 			1212
+/******/ 		],
+/******/ 		"267": [
+/******/ 			3267
+/******/ 		],
+/******/ 		"270": [
+/******/ 			8270
+/******/ 		],
+/******/ 		"278": [
+/******/ 			4278
+/******/ 		],
+/******/ 		"718": [
+/******/ 			6718
+/******/ 		]
+/******/ 	};
+/******/ 	__webpack_require__.f.consumes = (chunkId, promises) => {
+/******/ 		if(__webpack_require__.o(chunkMapping, chunkId)) {
+/******/ 			chunkMapping[chunkId].forEach((id) => {
+/******/ 				if(__webpack_require__.o(installedModules, id)) return promises.push(installedModules[id]);
+/******/ 				var onFactory = (factory) => {
+/******/ 					installedModules[id] = 0;
+/******/ 					__webpack_require__.m[id] = (module) => {
+/******/ 						delete __webpack_require__.c[id];
+/******/ 						module.exports = factory();
+/******/ 					}
+/******/ 				};
+/******/ 				var onError = (error) => {
+/******/ 					delete installedModules[id];
+/******/ 					__webpack_require__.m[id] = (module) => {
+/******/ 						delete __webpack_require__.c[id];
+/******/ 						throw error;
+/******/ 					}
+/******/ 				};
+/******/ 				try {
+/******/ 					var promise = moduleToHandlerMapping[id]();
+/******/ 					if(promise.then) {
+/******/ 						promises.push(installedModules[id] = promise.then(onFactory)['catch'](onError));
+/******/ 					} else onFactory(promise);
+/******/ 				} catch(e) { onError(e); }
+/******/ 			});
+/******/ 		}
+/******/ 	}
+/******/ })();
+/******/ 
+/******/ /* webpack/runtime/jsonp chunk loading */
+/******/ (() => {
+/******/ 	// no baseURI
+/******/ 	
+/******/ 	// object to store loaded and loading chunks
+/******/ 	// undefined = chunk not loaded, null = chunk preloaded/prefetched
+/******/ 	// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
+/******/ 	var installedChunks = {
+/******/ 		291: 0
+/******/ 	};
+/******/ 	
+/******/ 	__webpack_require__.f.j = (chunkId, promises) => {
+/******/ 			// JSONP chunk loading for javascript
+/******/ 			var installedChunkData = __webpack_require__.o(installedChunks, chunkId) ? installedChunks[chunkId] : undefined;
+/******/ 			if(installedChunkData !== 0) { // 0 means "already installed".
+/******/ 	
+/******/ 				// a Promise means "currently loading".
+/******/ 				if(installedChunkData) {
+/******/ 					promises.push(installedChunkData[2]);
+/******/ 				} else {
+/******/ 					if(!/^(2(12|67|70|78)|55|718|8)$/.test(chunkId)) {
+/******/ 						// setup Promise in chunk cache
+/******/ 						var promise = new Promise((resolve, reject) => (installedChunkData = installedChunks[chunkId] = [resolve, reject]));
+/******/ 						promises.push(installedChunkData[2] = promise);
+/******/ 	
+/******/ 						// start chunk loading
+/******/ 						var url = __webpack_require__.p + __webpack_require__.u(chunkId);
+/******/ 						// create error before stack unwound to get useful stacktrace later
+/******/ 						var error = new Error();
+/******/ 						var loadingEnded = (event) => {
+/******/ 							if(__webpack_require__.o(installedChunks, chunkId)) {
+/******/ 								installedChunkData = installedChunks[chunkId];
+/******/ 								if(installedChunkData !== 0) installedChunks[chunkId] = undefined;
+/******/ 								if(installedChunkData) {
+/******/ 									var errorType = event && (event.type === 'load' ? 'missing' : event.type);
+/******/ 									var realSrc = event && event.target && event.target.src;
+/******/ 									error.message = 'Loading chunk ' + chunkId + ' failed.\n(' + errorType + ': ' + realSrc + ')';
+/******/ 									error.name = 'ChunkLoadError';
+/******/ 									error.type = errorType;
+/******/ 									error.request = realSrc;
+/******/ 									installedChunkData[1](error);
+/******/ 								}
+/******/ 							}
+/******/ 						};
+/******/ 						__webpack_require__.l(url, loadingEnded, "chunk-" + chunkId, chunkId);
+/******/ 					} else installedChunks[chunkId] = 0;
+/******/ 				}
+/******/ 			}
+/******/ 	};
+/******/ 	
+/******/ 	// no prefetching
+/******/ 	
+/******/ 	// no preloaded
+/******/ 	
+/******/ 	// no HMR
+/******/ 	
+/******/ 	// no HMR manifest
+/******/ 	
+/******/ 	// no on chunks loaded
+/******/ 	
+/******/ 	// install a JSONP callback for chunk loading
+/******/ 	var webpackJsonpCallback = (parentChunkLoadingFunction, data) => {
+/******/ 		var [chunkIds, moreModules, runtime] = data;
+/******/ 		// add "moreModules" to the modules object,
+/******/ 		// then flag all "chunkIds" as loaded and fire callback
+/******/ 		var moduleId, chunkId, i = 0;
+/******/ 		if(chunkIds.some((id) => (installedChunks[id] !== 0))) {
+/******/ 			for(moduleId in moreModules) {
+/******/ 				if(__webpack_require__.o(moreModules, moduleId)) {
+/******/ 					__webpack_require__.m[moduleId] = moreModules[moduleId];
+/******/ 				}
+/******/ 			}
+/******/ 			if(runtime) var result = runtime(__webpack_require__);
+/******/ 		}
+/******/ 		if(parentChunkLoadingFunction) parentChunkLoadingFunction(data);
+/******/ 		for(;i < chunkIds.length; i++) {
+/******/ 			chunkId = chunkIds[i];
+/******/ 			if(__webpack_require__.o(installedChunks, chunkId) && installedChunks[chunkId]) {
+/******/ 				installedChunks[chunkId][0]();
+/******/ 			}
+/******/ 			installedChunks[chunkId] = 0;
+/******/ 		}
+/******/ 	
+/******/ 	}
+/******/ 	
+/******/ 	var chunkLoadingGlobal = self["webpackChunkmfe1"] = self["webpackChunkmfe1"] || [];
+/******/ 	chunkLoadingGlobal.forEach(webpackJsonpCallback.bind(null, 0));
+/******/ 	chunkLoadingGlobal.push = webpackJsonpCallback.bind(null, chunkLoadingGlobal.push.bind(chunkLoadingGlobal));
+/******/ })();
+/******/ 
+/************************************************************************/
+/******/ 
+/******/ // module cache are used so entry inlining is disabled
+/******/ // startup
+/******/ // Load entry module and return exports
+/******/ var __webpack_exports__ = __webpack_require__(3539);
+/******/ var __webpack_exports__get = __webpack_exports__.get;
+/******/ var __webpack_exports__init = __webpack_exports__.init;
+/******/ export { __webpack_exports__get as get, __webpack_exports__init as init };
+/******/ 
+
+//# sourceMappingURL=remoteEntry.js.map
